@@ -165,7 +165,7 @@ public class SNSLogin {
 		params.add("client_id", "b87de33b6c8fe6b2977868b55731dae3");
 		params.add("redirect_uri", "http://localhost:8080/wtwi/member/auth/kakao/callback");
 		params.add("code", code);
-		params.add("client_secret", "496Pgfenz4y5ff9FxZtM7o51KEcl4WF0");
+		params.add("client_secret", "시크릿");
 
 		HttpEntity<MultiValueMap<String, String>> kakaoRequest = new HttpEntity<>(params, headers);
 
