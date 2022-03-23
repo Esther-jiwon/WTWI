@@ -28,10 +28,10 @@
 	<!-- By 지원. 소셜 로그인 Bean 등록 -->
 	<!-- oauth2 login / naver -->
 	<beans:bean id="naverClientID" class="java.lang.String">
-		<beans:constructor-arg value="0pbxHHRrlWo9BKNmQb_g"/>
+		<beans:constructor-arg value="아이디"/>
 	</beans:bean>
 	<beans:bean id="naverClientSecret" class="java.lang.String">
-		<beans:constructor-arg value="tMnpH84LBV"/>
+		<beans:constructor-arg value="시크릿"/>
 	</beans:bean>
 	<beans:bean id="naverRedirectUrl" class="java.lang.String">
 		<beans:constructor-arg value="http://localhost:8080/wtwi/member/auth/naver/callback"/>
@@ -45,10 +45,10 @@
 	
 	<!-- oauth2 login / facebook -->
 	<beans:bean id="facebookClientID" class="java.lang.String">
-		<beans:constructor-arg value="943894909536929"/>
+		<beans:constructor-arg value="아이디"/>
 	</beans:bean>
 	<beans:bean id="facebookClientSecret" class="java.lang.String">
-		<beans:constructor-arg value="c1ba5ee77740d079a5759c2adfdb0bce"/>
+		<beans:constructor-arg value="시크릿"/>
 	</beans:bean>
 	<beans:bean id="facebookRedirectUrl" class="java.lang.String">
 		<beans:constructor-arg value="http://localhost:8080/wtwi/member/auth/facebook/callback"/>
@@ -63,7 +63,7 @@
 	
 	<!-- oauth2 login / google -->
 	<beans:bean id="googleClientID" class="java.lang.String">
-		<beans:constructor-arg value="908088894096-skhooibsicepdvthfedldfhdb1ajipcd.apps.googleusercontent.com"/>
+		<beans:constructor-arg value="아이디"/>
 	</beans:bean>
 	<beans:bean id="googleClientSecret" class="java.lang.String">
 		<beans:constructor-arg value="2JJtZSsgj1yfux1e5X7JCmY9"/>
